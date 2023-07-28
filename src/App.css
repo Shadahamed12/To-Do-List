@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #8758ff;
+  cursor: pointer;
+}
+.App {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.TodoForm {
+  border: 1px solid black;
+  background: #15053d;
+  padding: 20px;
+  width: 30vw;
+  border-radius: 10px;
+}
+
+.todo-input {
+  outline: none;
+  background-color: #342c48;
+  border: 1px solid #ffffff;
+  padding: 15px 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 70%;
+  color: #fff;
+}
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.datas {
+  border: 1px solid white;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+}
+
+.datas-completed {
+  border: 1px solid #04ed08;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+}
+.desc {
+  text-overflow: ellipsis;
+}
+.desc-line {
+  text-overflow: ellipsis;
+  text-decoration: line-through;
+}
+.todo-inputs {
+  outline: none;
+  background: none;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  width: 100%;
+  color: #fff;
+}
+
+.complete {
+  color: #04ed08;
+  text-decoration: line-through;
+}
+
+#delete {
+  color: rgba(226, 19, 19, 0.745);
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 15px 35px;
+  cursor: pointer;
+  border-radius: 10px;
+}
